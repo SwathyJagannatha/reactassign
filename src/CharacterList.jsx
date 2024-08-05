@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 //use effct to fetch data from aPI
 //display each character's name and thumbnail image in grid format
 
-const CharacterList = ({}) =>{
+const CharacterList = () =>{
 
      const [characters, setCharacters] = useState([]);
      const [loading, setLoading] = useState(true);

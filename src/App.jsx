@@ -27,7 +27,7 @@ function App() {
         {/* Add home page */}
         <Route path='/' element={ <Home/> } />
         <Route path='/characters' element={ <CharacterList/> }/>
-        <Route path='/characters/:id' element={ <CharacterDetails/> }/>
+        <Route path='/characters/:characterID' element={ <CharacterDetails/> }/>
         <Route path='/displayComics' element={ <Comics/> }/>
          {/* Setting a default page if the path doesn't match anything */}
          <Route path="*" element={<NotFound />}/>
